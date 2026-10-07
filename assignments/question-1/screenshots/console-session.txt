@@ -1,0 +1,9 @@
+Temperature (C): 25
+Turbidity (NTU): 10
+
+Water Quality Report
+--------------------
+Temperature: 25.0 C
+Turbidity:   10.0 NTU
+Index:       95.0
+Status:      Good

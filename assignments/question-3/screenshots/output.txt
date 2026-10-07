@@ -1,0 +1,7 @@
+Number of routes (1-100): Distance for route 1 (km): Distance for route 2 (km): Distance for route 3 (km): Distance for route 4 (km): Distance for route 5 (km): Distance for route 6 (km): Count routes longer than (km): 
+Delivery Route Report
+Total distance: 140 km
+Average distance: 23.33 km
+Longest route: 40 km
+Routes longer than 20 km: 3
+Recursive sum: 140 km

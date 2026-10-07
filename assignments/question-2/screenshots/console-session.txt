@@ -1,0 +1,59 @@
+
+Mobile Money Menu
+1. Deposit
+2. Withdraw
+3. Balance inquiry
+4. Transaction summary
+5. Exit
+Choose an option: 1
+Amount: 100
+Deposit successful. Balance: 100.00
+
+Mobile Money Menu
+1. Deposit
+2. Withdraw
+3. Balance inquiry
+4. Transaction summary
+5. Exit
+Choose an option: 2
+Amount: 25
+Withdrawal successful. Balance: 75.00
+
+Mobile Money Menu
+1. Deposit
+2. Withdraw
+3. Balance inquiry
+4. Transaction summary
+5. Exit
+Choose an option: 2
+Amount: 100
+Withdrawal rejected. Insufficient balance.
+
+Mobile Money Menu
+1. Deposit
+2. Withdraw
+3. Balance inquiry
+4. Transaction summary
+5. Exit
+Choose an option: 3
+Current balance: 75.00
+
+Mobile Money Menu
+1. Deposit
+2. Withdraw
+3. Balance inquiry
+4. Transaction summary
+5. Exit
+Choose an option: 4
+Successful deposits: 1
+Successful withdrawals: 1
+Current balance: 75.00
+
+Mobile Money Menu
+1. Deposit
+2. Withdraw
+3. Balance inquiry
+4. Transaction summary
+5. Exit
+Choose an option: 5
+Goodbye.
