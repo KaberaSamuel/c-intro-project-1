@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="460" viewBox="0 0 920 460" font-family="Verdana, Arial, sans-serif">
+  <rect width="920" height="460" fill="#ffffff"/>
+
+  <!-- Sensor box -->
+  <rect x="30" y="180" width="200" height="110" fill="#ffffff" stroke="#000" stroke-width="2" rx="6"/>
+  <text x="130" y="220" text-anchor="middle" font-size="16" fill="#000">Ultrasonic sensor</text>
+  <text x="130" y="244" text-anchor="middle" font-size="14" fill="#000">(HC-SR04)</text>
+  <text x="130" y="268" text-anchor="middle" font-size="12" fill="#444">trig pin 2, echo pin 3</text>
+
+  <!-- Arduino box -->
+  <rect x="330" y="170" width="250" height="130" fill="#ffffff" stroke="#000" stroke-width="2" rx="6"/>
+  <text x="455" y="210" text-anchor="middle" font-size="16" fill="#000">Arduino Uno</text>
+  <text x="455" y="240" text-anchor="middle" font-size="12" fill="#444">echo time -> distance</text>
+  <text x="455" y="264" text-anchor="middle" font-size="12" fill="#444">compare with 20 cm</text>
+
+  <!-- Output boxes -->
+  <rect x="700" y="60" width="190" height="60" fill="#ffffff" stroke="#000" stroke-width="2" rx="6"/>
+  <text x="795" y="95" text-anchor="middle" font-size="15" fill="#000">Green LED (pin 8)</text>
+
+  <rect x="700" y="200" width="190" height="60" fill="#ffffff" stroke="#000" stroke-width="2" rx="6"/>
+  <text x="795" y="235" text-anchor="middle" font-size="15" fill="#000">Red LED (pin 9)</text>
+
+  <rect x="700" y="340" width="190" height="60" fill="#ffffff" stroke="#000" stroke-width="2" rx="6"/>
+  <text x="795" y="375" text-anchor="middle" font-size="15" fill="#000">Buzzer (pin 10)</text>
+
+  <!-- Arrows sensor <-> arduino -->
+  <line x1="230" y1="215" x2="330" y2="215" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="280" y="205" text-anchor="middle" font-size="12" fill="#000">echo time</text>
+
+  <line x1="330" y1="260" x2="230" y2="260" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="280" y="280" text-anchor="middle" font-size="12" fill="#000">sound pulse</text>
+
+  <!-- Arrows arduino -> outputs -->
+  <line x1="580" y1="200" x2="700" y2="95" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="640" y="135" text-anchor="middle" font-size="12" fill="#000">space free</text>
+
+  <line x1="580" y1="235" x2="700" y2="235" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="640" y="227" text-anchor="middle" font-size="12" fill="#000">space taken</text>
+
+  <line x1="580" y1="270" x2="700" y2="365" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="640" y="345" text-anchor="middle" font-size="12" fill="#000">space taken</text>
+
+  <!-- Serial monitor note -->
+  <rect x="330" y="390" width="250" height="50" fill="#ffffff" stroke="#444" stroke-width="1.5" rx="6"/>
+  <text x="455" y="420" text-anchor="middle" font-size="12" fill="#444">Serial Monitor: prints the distance</text>
+  <line x1="455" y1="300" x2="455" y2="390" stroke="#444" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
